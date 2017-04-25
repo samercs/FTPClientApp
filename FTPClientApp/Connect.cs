@@ -18,8 +18,8 @@ namespace FTPClientApp
         public Connect()
         {
             _ftpUrl = "ftp://waws-prod-sn1-003.ftp.azurewebsites.windows.net/site/wwwroot";
-            _ftpUserName = "NCSS\\$NCSS";
-            _ftpPassword = "ATc5izubLjtcACpctjlg3J7MlCDcR9zoFe6sgDnmsJaNJbMNa41JAAEbYRSE";
+            _ftpUserName = @"samercs\$samercs";
+            _ftpPassword = "DfM0PduaA6ZhpgfqZaad2BuK9X0ENlsQhbux35dh9Tl3EsAvMMdT1RnDmJip";
 
             InitializeComponent();
         }
