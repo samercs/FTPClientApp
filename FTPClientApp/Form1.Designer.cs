@@ -48,9 +48,9 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.treeView1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 22);
+            this.groupBox1.Location = new System.Drawing.Point(13, 14);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(657, 607);
+            this.groupBox1.Size = new System.Drawing.Size(657, 305);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remote Files";
@@ -63,7 +63,7 @@
             this.treeView1.Location = new System.Drawing.Point(6, 19);
             this.treeView1.Name = "treeView1";
             this.treeView1.SelectedImageIndex = 14;
-            this.treeView1.Size = new System.Drawing.Size(636, 578);
+            this.treeView1.Size = new System.Drawing.Size(636, 263);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -91,9 +91,9 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.Controls.Add(this.treeView2);
-            this.groupBox2.Location = new System.Drawing.Point(681, 18);
+            this.groupBox2.Location = new System.Drawing.Point(13, 350);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(658, 607);
+            this.groupBox2.Size = new System.Drawing.Size(658, 305);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Local Files";
@@ -106,7 +106,7 @@
             this.treeView2.Location = new System.Drawing.Point(17, 19);
             this.treeView2.Name = "treeView2";
             this.treeView2.SelectedImageIndex = 14;
-            this.treeView2.Size = new System.Drawing.Size(632, 578);
+            this.treeView2.Size = new System.Drawing.Size(632, 263);
             this.treeView2.TabIndex = 1;
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
             this.treeView2.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView2_NodeMouseClick);
@@ -114,14 +114,16 @@
             // btnDownload
             // 
             this.btnDownload.Enabled = false;
+            this.btnDownload.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnDownload.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDownload.ImageIndex = 0;
             this.btnDownload.ImageList = this.imageList2;
-            this.btnDownload.Location = new System.Drawing.Point(12, 650);
+            this.btnDownload.Location = new System.Drawing.Point(698, 41);
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(151, 55);
             this.btnDownload.TabIndex = 2;
-            this.btnDownload.Text = "Download File";
+            this.btnDownload.Text = "Download";
+            this.btnDownload.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDownload.UseVisualStyleBackColor = true;
             this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
@@ -129,50 +131,56 @@
             // 
             this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "download.png");
+            this.imageList2.Images.SetKeyName(0, "1493475019_download-alt.png");
             this.imageList2.Images.SetKeyName(1, "upload.png");
             this.imageList2.Images.SetKeyName(2, "rename.png");
-            this.imageList2.Images.SetKeyName(3, "1478081027_file_delete.png");
+            this.imageList2.Images.SetKeyName(3, "delete.png");
             // 
             // btnUpload
             // 
             this.btnUpload.Enabled = false;
+            this.btnUpload.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnUpload.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUpload.ImageIndex = 1;
             this.btnUpload.ImageList = this.imageList2;
-            this.btnUpload.Location = new System.Drawing.Point(698, 650);
+            this.btnUpload.Location = new System.Drawing.Point(698, 377);
             this.btnUpload.Name = "btnUpload";
             this.btnUpload.Size = new System.Drawing.Size(151, 55);
             this.btnUpload.TabIndex = 3;
             this.btnUpload.Text = "Upload File";
+            this.btnUpload.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUpload.UseVisualStyleBackColor = true;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
             // 
             // btnRename
             // 
             this.btnRename.Enabled = false;
+            this.btnRename.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnRename.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRename.ImageIndex = 2;
             this.btnRename.ImageList = this.imageList2;
-            this.btnRename.Location = new System.Drawing.Point(179, 650);
+            this.btnRename.Location = new System.Drawing.Point(698, 143);
             this.btnRename.Name = "btnRename";
             this.btnRename.Size = new System.Drawing.Size(151, 55);
             this.btnRename.TabIndex = 4;
             this.btnRename.Text = "Rename";
+            this.btnRename.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRename.UseVisualStyleBackColor = true;
             this.btnRename.Click += new System.EventHandler(this.btnRename_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.Enabled = false;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDelete.ImageIndex = 3;
             this.btnDelete.ImageList = this.imageList2;
-            this.btnDelete.Location = new System.Drawing.Point(345, 650);
+            this.btnDelete.Location = new System.Drawing.Point(698, 249);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(151, 55);
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "Delete";
+            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -180,7 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(1002, 724);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnRename);
             this.Controls.Add(this.btnUpload);
