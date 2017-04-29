@@ -430,7 +430,7 @@ namespace FTPClientApp
                 var tmp = fileName.Split(' ');
                 if (tmp.Length >= 2)
                 {
-                    fileName = tmp[1];
+                    fileName = fileName.Replace(tmp[0], "").Trim();
                     fileSize = tmp[0];
                 }
 

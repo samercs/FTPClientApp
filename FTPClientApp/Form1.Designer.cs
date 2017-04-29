@@ -48,9 +48,9 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.treeView1);
-            this.groupBox1.Location = new System.Drawing.Point(-10, 0);
+            this.groupBox1.Location = new System.Drawing.Point(12, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(685, 607);
+            this.groupBox1.Size = new System.Drawing.Size(657, 607);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remote Files";
@@ -63,7 +63,7 @@
             this.treeView1.Location = new System.Drawing.Point(6, 19);
             this.treeView1.Name = "treeView1";
             this.treeView1.SelectedImageIndex = 14;
-            this.treeView1.Size = new System.Drawing.Size(673, 578);
+            this.treeView1.Size = new System.Drawing.Size(636, 578);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -91,9 +91,9 @@
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.Controls.Add(this.treeView2);
-            this.groupBox2.Location = new System.Drawing.Point(681, 0);
+            this.groupBox2.Location = new System.Drawing.Point(681, 18);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(697, 607);
+            this.groupBox2.Size = new System.Drawing.Size(658, 607);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Local Files";
@@ -106,7 +106,7 @@
             this.treeView2.Location = new System.Drawing.Point(17, 19);
             this.treeView2.Name = "treeView2";
             this.treeView2.SelectedImageIndex = 14;
-            this.treeView2.Size = new System.Drawing.Size(668, 578);
+            this.treeView2.Size = new System.Drawing.Size(632, 578);
             this.treeView2.TabIndex = 1;
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
             this.treeView2.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView2_NodeMouseClick);
@@ -117,7 +117,7 @@
             this.btnDownload.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDownload.ImageIndex = 0;
             this.btnDownload.ImageList = this.imageList2;
-            this.btnDownload.Location = new System.Drawing.Point(12, 617);
+            this.btnDownload.Location = new System.Drawing.Point(12, 650);
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(151, 55);
             this.btnDownload.TabIndex = 2;
@@ -140,7 +140,7 @@
             this.btnUpload.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUpload.ImageIndex = 1;
             this.btnUpload.ImageList = this.imageList2;
-            this.btnUpload.Location = new System.Drawing.Point(698, 617);
+            this.btnUpload.Location = new System.Drawing.Point(698, 650);
             this.btnUpload.Name = "btnUpload";
             this.btnUpload.Size = new System.Drawing.Size(151, 55);
             this.btnUpload.TabIndex = 3;
@@ -154,7 +154,7 @@
             this.btnRename.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRename.ImageIndex = 2;
             this.btnRename.ImageList = this.imageList2;
-            this.btnRename.Location = new System.Drawing.Point(179, 617);
+            this.btnRename.Location = new System.Drawing.Point(179, 650);
             this.btnRename.Name = "btnRename";
             this.btnRename.Size = new System.Drawing.Size(151, 55);
             this.btnRename.TabIndex = 4;
@@ -168,7 +168,7 @@
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDelete.ImageIndex = 3;
             this.btnDelete.ImageList = this.imageList2;
-            this.btnDelete.Location = new System.Drawing.Point(345, 617);
+            this.btnDelete.Location = new System.Drawing.Point(345, 650);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(151, 55);
             this.btnDelete.TabIndex = 5;

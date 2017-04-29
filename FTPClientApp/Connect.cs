@@ -21,8 +21,8 @@ namespace FTPClientApp
         {
             //Add Demo Init FTP info
             _ftpUrl = "ftp://waws-prod-sn1-003.ftp.azurewebsites.windows.net/site/wwwroot";
-            _ftpUserName = @"samercs\$samercs";
-            _ftpPassword = "DfM0PduaA6ZhpgfqZaad2BuK9X0ENlsQhbux35dh9Tl3EsAvMMdT1RnDmJip";
+            _ftpUserName = @"cint242\mohammed-nasser";
+            _ftpPassword = "mohammed123!@#";
             //Default Componenct init form methods
             InitializeComponent();
         }

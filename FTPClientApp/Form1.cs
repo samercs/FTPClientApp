@@ -90,7 +90,7 @@ namespace FTPClientApp
                     if (serverFile.FileType == FileType.File)
                     {
                         imgIndex = GetImgIndex(serverFile.Name);
-                        node.Nodes.Add(dir, $"{serverFile.Name.Trim(),-30} : ({serverFile.Size} byte)", imgIndex);
+                        node.Nodes.Add(dir, $"{serverFile.Name,-30} : ({serverFile.Size} byte)", imgIndex);
                     }
                     else
                     {
